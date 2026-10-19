@@ -94,10 +94,20 @@
     </td>
   </tr>
   <tr>
-    <td colspan="3" align="center">
-      <img src="screenshot/cover-mosaic.webp" alt="展示 60 个游戏的封面拼贴统计海报" width="33%" loading="lazy" />
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic-6.webp" alt="展示 6 个游戏的封面拼贴统计海报" loading="lazy" />
       <br />
-      <sub>海报</sub>
+      <sub>海报 · 6 个游戏</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic.webp" alt="展示 60 个游戏的封面拼贴统计海报" loading="lazy" />
+      <br />
+      <sub>海报 · 60 个游戏</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic-120.webp" alt="展示 120 个游戏的封面拼贴统计海报" loading="lazy" />
+      <br />
+      <sub>海报 · 120 个游戏</sub>
     </td>
   </tr>
 </table>

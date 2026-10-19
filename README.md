@@ -94,10 +94,20 @@
     </td>
   </tr>
   <tr>
-    <td colspan="3" align="center">
-      <img src="screenshot/cover-mosaic.webp" alt="Cover mosaic statistics poster with 60 games" width="33%" loading="lazy" />
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic-6.webp" alt="Cover mosaic statistics poster with 6 games" loading="lazy" />
       <br />
-      <sub>Poster</sub>
+      <sub>Poster · 6 games</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic.webp" alt="Cover mosaic statistics poster with 60 games" loading="lazy" />
+      <br />
+      <sub>Poster · 60 games</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshot/cover-mosaic-120.webp" alt="Cover mosaic statistics poster with 120 games" loading="lazy" />
+      <br />
+      <sub>Poster · 120 games</sub>
     </td>
   </tr>
 </table>
