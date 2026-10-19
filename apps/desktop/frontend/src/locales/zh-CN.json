@@ -1621,7 +1621,7 @@
     "customRange": "自定义",
     "applyBtn": "应用",
     "resetBtn": "重置",
-    "exportTitle": "美化导出",
+    "exportTitle": "总结海报",
     "aiSummarizeTitle": "AI总结",
     "chartYAxis": "时长",
     "totalDurationDataset": "总游玩时长",
@@ -1689,7 +1689,7 @@
       "webEnhanced": "Web 增强"
     },
     "templateExport": {
-      "title": "美化导出",
+      "title": "总结海报",
       "selectTemplate": "选择模板",
       "selectTemplateHint": "选择一个模板来美化你的统计数据",
       "openTemplatesDir": "打开模板目录",

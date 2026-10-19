@@ -1621,7 +1621,7 @@
     "customRange": "カスタム",
     "applyBtn": "適用",
     "resetBtn": "リセット",
-    "exportTitle": "テンプレート書き出し",
+    "exportTitle": "サマリーポスター",
     "aiSummarizeTitle": "AI 要約",
     "chartYAxis": "プレイ時間",
     "totalDurationDataset": "総プレイ時間",
@@ -1689,7 +1689,7 @@
       "webEnhanced": "Web 強化"
     },
     "templateExport": {
-      "title": "テンプレート書き出し",
+      "title": "サマリーポスター",
       "selectTemplate": "テンプレートを選択",
       "selectTemplateHint": "テンプレートを選んで統計データを美しく表示します",
       "openTemplatesDir": "テンプレートディレクトリを開く",

@@ -1621,7 +1621,7 @@
     "customRange": "Custom",
     "applyBtn": "Apply",
     "resetBtn": "Reset",
-    "exportTitle": "Export",
+    "exportTitle": "Summary Poster",
     "aiSummarizeTitle": "AI Summary",
     "chartYAxis": "Duration",
     "totalDurationDataset": "Total Play Duration",
@@ -1689,7 +1689,7 @@
       "webEnhanced": "Web Enhanced"
     },
     "templateExport": {
-      "title": "Export",
+      "title": "Summary Poster",
       "selectTemplate": "Select Template",
       "selectTemplateHint": "Choose a template to beautify your statistics",
       "openTemplatesDir": "Open Templates Directory",
