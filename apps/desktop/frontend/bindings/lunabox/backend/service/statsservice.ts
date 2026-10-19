@@ -32,6 +32,18 @@ export function GetGlobalPeriodStats(req: vo$0.PeriodStatsRequest): $Cancellable
     });
 }
 
+/**
+ * GetPosterGames returns every played game in the inclusive local calendar range.
+ * The statistics dashboard keeps its existing top-20 leaderboard independently.
+ */
+export function GetPosterGames(startDate: string, endDate: string): $CancellablePromise<vo$0.PosterGame[]> {
+    return $Call.ByID(1778767169, startDate, endDate).then(($result: any) => {
+        return $$createType3($result);
+    });
+}
+
 // Private type creation functions
 const $$createType0 = vo$0.GameDetailStats.createFrom;
 const $$createType1 = vo$0.PeriodStats.createFrom;
+const $$createType2 = vo$0.PosterGame.createFrom;
+const $$createType3 = $Create.Array($$createType2);

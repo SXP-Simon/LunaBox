@@ -2331,6 +2331,46 @@ export class PeriodStatsRequest {
 }
 
 /**
+ * PosterGame is the complete, untruncated game list for a statistics poster.
+ */
+export class PosterGame {
+    "game_id": string;
+    "game_name": string;
+    "company": string;
+    "cover_url": string;
+    "total_duration": number;
+
+    /** Creates a new PosterGame instance. */
+    constructor($$source: Partial<PosterGame> = {}) {
+        if (!("game_id" in $$source)) {
+            this["game_id"] = "";
+        }
+        if (!("game_name" in $$source)) {
+            this["game_name"] = "";
+        }
+        if (!("company" in $$source)) {
+            this["company"] = "";
+        }
+        if (!("cover_url" in $$source)) {
+            this["cover_url"] = "";
+        }
+        if (!("total_duration" in $$source)) {
+            this["total_duration"] = 0;
+        }
+
+        Object.assign(this, $$source);
+    }
+
+    /**
+     * Creates a new PosterGame instance from a string or object.
+     */
+    static createFrom($$source: any = {}): PosterGame {
+        let $$parsedSource = typeof $$source === 'string' ? JSON.parse($$source) : $$source;
+        return new PosterGame($$parsedSource as Partial<PosterGame>);
+    }
+}
+
+/**
  * ProtocolLaunchRequest 通过 lunabox://launch?game_id=... 触发的启动请求
  */
 export class ProtocolLaunchRequest {
