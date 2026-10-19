@@ -9,6 +9,7 @@ import {
   RenderTemplate,
 } from "../../../bindings/lunabox/backend/service/templateservice";
 import { vo } from "../../../src/bindings/models";
+import { MosaicPosterPanel } from "../panel/MosaicPosterPanel";
 import { ModalPortal } from "../ui/ModalPortal";
 
 interface TemplateExportModalProps {
@@ -26,16 +27,31 @@ export function TemplateExportModal({
 }: TemplateExportModalProps) {
   const { t } = useTranslation();
   const [templates, setTemplates] = useState<vo.TemplateInfo[]>([]);
-  const [selectedTemplateId, setSelectedTemplateId] = useState<string>("");
+  const [selectedTemplateId, setSelectedTemplateId]
+    = useState<string>("cover_mosaic");
   const [previewHtml, setPreviewHtml] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [exporting, setExporting] = useState(false);
+  const [mosaicCanvas, setMosaicCanvas] = useState<HTMLCanvasElement | null>(
+    null,
+  );
+  const requestId = useRef(0);
   const previewRef = useRef<HTMLDivElement>(null);
 
   const loadTemplates = async () => {
     try {
       const list = await ListTemplates();
-      setTemplates(list);
+      setTemplates([
+        new vo.TemplateInfo({
+          id: "cover_mosaic",
+          name: t("stats.templateExport.mosaic.name"),
+          description: t("stats.templateExport.mosaic.description"),
+          is_builtin: true,
+          version: "1.0.0",
+          author: "LunaBox",
+        }),
+        ...list,
+      ]);
       if (list.length > 0 && !selectedTemplateId) {
         setSelectedTemplateId(list[0].id);
       }
@@ -47,7 +63,8 @@ export function TemplateExportModal({
   };
 
   const renderPreview = async () => {
-    if (!stats || !selectedTemplateId)
+    const currentRequest = ++requestId.current;
+    if (!stats || !selectedTemplateId || selectedTemplateId === "cover_mosaic")
       return;
 
     setLoading(true);
@@ -58,18 +75,40 @@ export function TemplateExportModal({
         data: exportData,
       });
       const resp = await RenderTemplate(req);
-      setPreviewHtml(resp.html);
+      if (currentRequest === requestId.current)
+        setPreviewHtml(resp.html);
     }
     catch (err) {
       console.error("Failed to render template:", err);
-      toast.error(t("stats.templateExport.toast.renderFailed"));
+      if (currentRequest === requestId.current)
+        toast.error(t("stats.templateExport.toast.renderFailed"));
     }
     finally {
-      setLoading(false);
+      if (currentRequest === requestId.current)
+        setLoading(false);
     }
   };
 
   const handleExport = useCallback(async () => {
+    if (selectedTemplateId === "cover_mosaic") {
+      if (!mosaicCanvas)
+        return;
+      setExporting(true);
+      try {
+        await ExportRenderedHTML(mosaicCanvas.toDataURL("image/png"));
+      }
+      catch (err) {
+        toast.error(
+          t("stats.templateExport.toast.exportFailed", {
+            error: err instanceof Error ? err.message : String(err),
+          }),
+        );
+      }
+      finally {
+        setExporting(false);
+      }
+      return;
+    }
     if (!previewRef.current)
       return;
 
@@ -166,7 +205,7 @@ export function TemplateExportModal({
     finally {
       setExporting(false);
     }
-  }, [previewRef, onClose, t]);
+  }, [previewRef, onClose, t, selectedTemplateId, mosaicCanvas]);
 
   const handleOpenTemplatesDir = async () => {
     try {
@@ -235,6 +274,7 @@ export function TemplateExportModal({
                   <button
                     key={template.id}
                     type="button"
+                    disabled={exporting}
                     onClick={() => setSelectedTemplateId(template.id)}
                     className={`w-full text-left px-3 py-2.5 rounded-lg transition-colors ${
                       selectedTemplateId === template.id
@@ -297,26 +337,35 @@ export function TemplateExportModal({
               )}
 
               {/* Preview Area */}
-              <div ref={previewRef} className="flex-1 overflow-auto p-4">
-                {loading ? (
-                  <div className="flex items-center justify-center h-full">
-                    <div className="flex items-center gap-3 text-brand-500 dark:text-brand-400">
-                      <span className="i-mdi-loading animate-spin text-2xl" />
-                      <span>{t("stats.templateExport.rendering")}</span>
+              {selectedTemplateId === "cover_mosaic" && stats ? (
+                <MosaicPosterPanel
+                  startDate={stats.start_date}
+                  endDate={stats.end_date}
+                  exporting={exporting}
+                  onReady={setMosaicCanvas}
+                />
+              ) : (
+                <div ref={previewRef} className="flex-1 overflow-auto p-4">
+                  {loading ? (
+                    <div className="flex items-center justify-center h-full">
+                      <div className="flex items-center gap-3 text-brand-500 dark:text-brand-400">
+                        <span className="i-mdi-loading animate-spin text-2xl" />
+                        <span>{t("stats.templateExport.rendering")}</span>
+                      </div>
                     </div>
-                  </div>
-                ) : previewHtml ? (
-                  <iframe
-                    srcDoc={previewHtml}
-                    className="w-full h-full border-0 rounded-lg shadow-lg bg-white"
-                    sandbox="allow-same-origin allow-scripts"
-                  />
-                ) : (
-                  <div className="flex items-center justify-center h-full text-brand-500 dark:text-brand-400">
-                    {t("stats.templateExport.selectToPreview")}
-                  </div>
-                )}
-              </div>
+                  ) : previewHtml ? (
+                    <iframe
+                      srcDoc={previewHtml}
+                      className="w-full h-full border-0 rounded-lg shadow-lg bg-white"
+                      sandbox="allow-same-origin allow-scripts"
+                    />
+                  ) : (
+                    <div className="flex items-center justify-center h-full text-brand-500 dark:text-brand-400">
+                      {t("stats.templateExport.selectToPreview")}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
 
@@ -337,7 +386,11 @@ export function TemplateExportModal({
               <button
                 type="button"
                 onClick={handleExport}
-                disabled={!previewHtml || exporting}
+                disabled={
+                  (selectedTemplateId === "cover_mosaic"
+                    ? !mosaicCanvas
+                    : !previewHtml || loading) || exporting
+                }
                 className="px-4 py-2 text-sm font-medium text-white bg-neutral-600 hover:bg-neutral-700 rounded-lg shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
               >
                 {exporting ? (
