@@ -93,6 +93,13 @@
       <sub>手帳風</sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="screenshot/cover-mosaic.webp" alt="60 作品のカバーを並べた統計ポスター" width="33%" loading="lazy" />
+      <br />
+      <sub>ポスター</sub>
+    </td>
+  </tr>
 </table>
 
 </details>

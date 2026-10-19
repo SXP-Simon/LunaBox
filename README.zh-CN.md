@@ -93,6 +93,13 @@
       <sub>手账风</sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="screenshot/cover-mosaic.webp" alt="展示 60 个游戏的封面拼贴统计海报" width="33%" loading="lazy" />
+      <br />
+      <sub>海报</sub>
+    </td>
+  </tr>
 </table>
 
 </details>

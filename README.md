@@ -93,6 +93,13 @@
       <sub>Journal Style</sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="screenshot/cover-mosaic.webp" alt="Cover mosaic statistics poster with 60 games" width="33%" loading="lazy" />
+      <br />
+      <sub>Poster</sub>
+    </td>
+  </tr>
 </table>
 
 </details>
