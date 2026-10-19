@@ -1,0 +1,1082 @@
+[
+  {
+    "game_id": "v10680",
+    "game_name": "近月少女的礼仪",
+    "company": "Navel",
+    "cover_url": "/demo-covers/v10680.jpg",
+    "total_duration": 288000,
+    "source": "https://vndb.org/v10680",
+    "original_cover": "https://t.vndb.org/cv/94/79894.jpg"
+  },
+  {
+    "game_id": "v777",
+    "game_name": "魔法使之夜",
+    "company": "TYPE-MOON / HuneX / Lasengle Inc.",
+    "cover_url": "/demo-covers/v777.jpg",
+    "total_duration": 230400,
+    "source": "https://vndb.org/v777",
+    "original_cover": "https://t.vndb.org/cv/24/85324.jpg"
+  },
+  {
+    "game_id": "v10",
+    "game_name": "narcissu",
+    "company": "Stage-nana / Regista Co.,Ltd.",
+    "cover_url": "/demo-covers/v10.jpg",
+    "total_duration": 172800,
+    "source": "https://vndb.org/v10",
+    "original_cover": "https://t.vndb.org/cv/13/93313.jpg"
+  },
+  {
+    "game_id": "v21905",
+    "game_name": "心跳文学部！",
+    "company": "Team Salvato",
+    "cover_url": "/demo-covers/v21905.jpg",
+    "total_duration": 112680,
+    "source": "https://vndb.org/v21905",
+    "original_cover": "https://t.vndb.org/cv/36/79136.jpg"
+  },
+  {
+    "game_id": "v2002",
+    "game_name": "命运石之门",
+    "company": "NITRO PLUS / MAGES. / MAGES. Inc.",
+    "cover_url": "/demo-covers/v2002.jpg",
+    "total_duration": 110780,
+    "source": "https://vndb.org/v2002",
+    "original_cover": "https://t.vndb.org/cv/19/77819.jpg"
+  },
+  {
+    "game_id": "v7014",
+    "game_name": "弹丸论破 希望的学园与绝望的高中生",
+    "company": "Spike / Spike Chunsoft",
+    "cover_url": "/demo-covers/v7014.jpg",
+    "total_duration": 108897,
+    "source": "https://vndb.org/v7014",
+    "original_cover": "https://t.vndb.org/cv/15/75815.jpg"
+  },
+  {
+    "game_id": "v24",
+    "game_name": "海猫鸣泣之时",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v24.jpg",
+    "total_duration": 107030,
+    "source": "https://vndb.org/v24",
+    "original_cover": "https://t.vndb.org/cv/23/85323.jpg"
+  },
+  {
+    "game_id": "v7679",
+    "game_name": "超级弹丸论破2 再见了绝望学园",
+    "company": "Spike / Spike Chunsoft / Gemdrops, Inc",
+    "cover_url": "/demo-covers/v7679.jpg",
+    "total_duration": 105179,
+    "source": "https://vndb.org/v7679",
+    "original_cover": "https://t.vndb.org/cv/10/75810.jpg"
+  },
+  {
+    "game_id": "v4",
+    "game_name": "CLANNAD",
+    "company": "Key",
+    "cover_url": "/demo-covers/v4.jpg",
+    "total_duration": 103345,
+    "source": "https://vndb.org/v4",
+    "original_cover": "https://t.vndb.org/cv/95/75895.jpg"
+  },
+  {
+    "game_id": "v67",
+    "game_name": "寒蝉鸣泣之时",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v67.jpg",
+    "total_duration": 101527,
+    "source": "https://vndb.org/v67",
+    "original_cover": "https://t.vndb.org/cv/00/75600.jpg"
+  },
+  {
+    "game_id": "v711",
+    "game_name": "逆转裁判",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v711.jpg",
+    "total_duration": 99725,
+    "source": "https://vndb.org/v711",
+    "original_cover": "https://t.vndb.org/cv/88/88088.jpg"
+  },
+  {
+    "game_id": "v3112",
+    "game_name": "极限脱出 9小时9人9扇门",
+    "company": "Chunsoft / Spike Chunsoft",
+    "cover_url": "/demo-covers/v3112.jpg",
+    "total_duration": 97940,
+    "source": "https://vndb.org/v3112",
+    "original_cover": "https://t.vndb.org/cv/43/78443.jpg"
+  },
+  {
+    "game_id": "v18334",
+    "game_name": "新枪弹辩驳V3 大家自相残杀的新学期",
+    "company": "Spike Chunsoft",
+    "cover_url": "/demo-covers/v18334.jpg",
+    "total_duration": 96171,
+    "source": "https://vndb.org/v18334",
+    "original_cover": "https://t.vndb.org/cv/18/75818.jpg"
+  },
+  {
+    "game_id": "v17",
+    "game_name": "时空轮回",
+    "company": "KID / SDR Project",
+    "cover_url": "/demo-covers/v17.jpg",
+    "total_duration": 94418,
+    "source": "https://vndb.org/v17",
+    "original_cover": "https://t.vndb.org/cv/12/79412.jpg"
+  },
+  {
+    "game_id": "v34",
+    "game_name": "planetarian～小小的星之梦～",
+    "company": "Key",
+    "cover_url": "/demo-covers/v34.jpg",
+    "total_duration": 92681,
+    "source": "https://vndb.org/v34",
+    "original_cover": "https://t.vndb.org/cv/96/75896.jpg"
+  },
+  {
+    "game_id": "v751",
+    "game_name": "Rewrite",
+    "company": "Key",
+    "cover_url": "/demo-covers/v751.jpg",
+    "total_duration": 90961,
+    "source": "https://vndb.org/v751",
+    "original_cover": "https://t.vndb.org/cv/05/75905.jpg"
+  },
+  {
+    "game_id": "v68",
+    "game_name": "寒蝉鸣泣之时解",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v68.jpg",
+    "total_duration": 89257,
+    "source": "https://vndb.org/v68",
+    "original_cover": "https://t.vndb.org/cv/92/76392.jpg"
+  },
+  {
+    "game_id": "v12402",
+    "game_name": "海市蜃楼之馆",
+    "company": "NOVECT",
+    "cover_url": "/demo-covers/v12402.jpg",
+    "total_duration": 87570,
+    "source": "https://vndb.org/v12402",
+    "original_cover": "https://t.vndb.org/cv/31/77731.jpg"
+  },
+  {
+    "game_id": "v17102",
+    "game_name": "命运石之门0",
+    "company": "MAGES. / M2 Co., Ltd.",
+    "cover_url": "/demo-covers/v17102.jpg",
+    "total_duration": 85898,
+    "source": "https://vndb.org/v17102",
+    "original_cover": "https://t.vndb.org/cv/34/75834.jpg"
+  },
+  {
+    "game_id": "v715",
+    "game_name": "逆转裁判2",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v715.jpg",
+    "total_duration": 84243,
+    "source": "https://vndb.org/v715",
+    "original_cover": "https://t.vndb.org/cv/90/88090.jpg"
+  },
+  {
+    "game_id": "v716",
+    "game_name": "逆转裁判3",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v716.jpg",
+    "total_duration": 82605,
+    "source": "https://vndb.org/v716",
+    "original_cover": "https://t.vndb.org/cv/84/88084.jpg"
+  },
+  {
+    "game_id": "v382",
+    "game_name": "Chaos;Head",
+    "company": "NITRO PLUS / MAGES. / Red Flagship Co.,Ltd.",
+    "cover_url": "/demo-covers/v382.jpg",
+    "total_duration": 80982,
+    "source": "https://vndb.org/v382",
+    "original_cover": "https://t.vndb.org/cv/60/93360.jpg"
+  },
+  {
+    "game_id": "v7809",
+    "game_name": "极限脱出ADV 善人死亡",
+    "company": "Chunsoft / Spike Chunsoft",
+    "cover_url": "/demo-covers/v7809.jpg",
+    "total_duration": 79376,
+    "source": "https://vndb.org/v7809",
+    "original_cover": "https://t.vndb.org/cv/84/88384.jpg"
+  },
+  {
+    "game_id": "v14018",
+    "game_name": "混沌之子",
+    "company": "MAGES.",
+    "cover_url": "/demo-covers/v14018.jpg",
+    "total_duration": 77787,
+    "source": "https://vndb.org/v14018",
+    "original_cover": "https://t.vndb.org/cv/35/75835.jpg"
+  },
+  {
+    "game_id": "v18872",
+    "game_name": "VA-11 HALL-A",
+    "company": "Sukeban Games",
+    "cover_url": "/demo-covers/v18872.jpg",
+    "total_duration": 76213,
+    "source": "https://vndb.org/v18872",
+    "original_cover": "https://t.vndb.org/cv/53/87453.jpg"
+  },
+  {
+    "game_id": "v20424",
+    "game_name": "Summer Pockets",
+    "company": "Key",
+    "cover_url": "/demo-covers/v20424.jpg",
+    "total_duration": 74656,
+    "source": "https://vndb.org/v20424",
+    "original_cover": "https://t.vndb.org/cv/30/85430.jpg"
+  },
+  {
+    "game_id": "v717",
+    "game_name": "逆转裁判4",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v717.jpg",
+    "total_duration": 73115,
+    "source": "https://vndb.org/v717",
+    "original_cover": "https://t.vndb.org/cv/44/86844.jpg"
+  },
+  {
+    "game_id": "v26532",
+    "game_name": "AI：梦境档案",
+    "company": "Spike Chunsoft",
+    "cover_url": "/demo-covers/v26532.jpg",
+    "total_duration": 71591,
+    "source": "https://vndb.org/v26532",
+    "original_cover": "https://t.vndb.org/cv/39/75839.jpg"
+  },
+  {
+    "game_id": "v33493",
+    "game_name": "主播女孩重度依赖",
+    "company": "WSS playground / Xemono Inc. / room6 inc.",
+    "cover_url": "/demo-covers/v33493.jpg",
+    "total_duration": 70083,
+    "source": "https://vndb.org/v33493",
+    "original_cover": "https://t.vndb.org/cv/42/85842.jpg"
+  },
+  {
+    "game_id": "v27448",
+    "game_name": "ATRI -My Dear Moments-",
+    "company": "Makura / Frontwing",
+    "cover_url": "/demo-covers/v27448.jpg",
+    "total_duration": 68591,
+    "source": "https://vndb.org/v27448",
+    "original_cover": "https://t.vndb.org/cv/12/76012.jpg"
+  },
+  {
+    "game_id": "v21289",
+    "game_name": "人狼村之谜",
+    "company": "Kemco Corporation",
+    "cover_url": "/demo-covers/v21289.jpg",
+    "total_duration": 67115,
+    "source": "https://vndb.org/v21289",
+    "original_cover": "https://t.vndb.org/cv/28/80128.jpg"
+  },
+  {
+    "game_id": "v2632",
+    "game_name": "尸体派对：血之复盖 - 无止境的恐惧",
+    "company": "MAGES. / Team GrisGris",
+    "cover_url": "/demo-covers/v2632.jpg",
+    "total_duration": 65656,
+    "source": "https://vndb.org/v2632",
+    "original_cover": "https://t.vndb.org/cv/58/83658.jpg"
+  },
+  {
+    "game_id": "v29049",
+    "game_name": "PMKM/Pomogi Mne Kupit' Moloko!",
+    "company": "Nikita Krjukov",
+    "cover_url": "/demo-covers/v29049.jpg",
+    "total_duration": 64213,
+    "source": "https://vndb.org/v29049",
+    "original_cover": "https://t.vndb.org/cv/62/80162.jpg"
+  },
+  {
+    "game_id": "v13",
+    "game_name": "无限轮回的时光",
+    "company": "KID / SDR Project",
+    "cover_url": "/demo-covers/v13.jpg",
+    "total_duration": 62786,
+    "source": "https://vndb.org/v13",
+    "original_cover": "https://t.vndb.org/cv/70/89570.jpg"
+  },
+  {
+    "game_id": "v7721",
+    "game_name": "传颂之物 虚伪的假面",
+    "company": "Leaf / AQUAPLUS / STING CO., LTD.",
+    "cover_url": "/demo-covers/v7721.jpg",
+    "total_duration": 61376,
+    "source": "https://vndb.org/v7721",
+    "original_cover": "https://t.vndb.org/cv/61/85161.jpg"
+  },
+  {
+    "game_id": "v17909",
+    "game_name": "月姬 -A piece of blue glass moon-",
+    "company": "TYPE-MOON",
+    "cover_url": "/demo-covers/v17909.jpg",
+    "total_duration": 59982,
+    "source": "https://vndb.org/v17909",
+    "original_cover": "https://t.vndb.org/cv/82/92482.jpg"
+  },
+  {
+    "game_id": "v18717",
+    "game_name": "传颂之物3：二人的白皇",
+    "company": "Leaf / AQUAPLUS / STING CO., LTD.",
+    "cover_url": "/demo-covers/v18717.jpg",
+    "total_duration": 58604,
+    "source": "https://vndb.org/v18717",
+    "original_cover": "https://t.vndb.org/cv/64/85164.jpg"
+  },
+  {
+    "game_id": "v1719",
+    "game_name": "逆转检察官",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v1719.jpg",
+    "total_duration": 57242,
+    "source": "https://vndb.org/v1719",
+    "original_cover": "https://t.vndb.org/cv/09/88409.jpg"
+  },
+  {
+    "game_id": "v9889",
+    "game_name": "逆转裁判5",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v9889.jpg",
+    "total_duration": 55897,
+    "source": "https://vndb.org/v9889",
+    "original_cover": "https://t.vndb.org/cv/83/85983.jpg"
+  },
+  {
+    "game_id": "v18397",
+    "game_name": "海市蜃楼之馆：纯真挽歌",
+    "company": "NOVECT",
+    "cover_url": "/demo-covers/v18397.jpg",
+    "total_duration": 54568,
+    "source": "https://vndb.org/v18397",
+    "original_cover": "https://t.vndb.org/cv/56/77756.jpg"
+  },
+  {
+    "game_id": "v7803",
+    "game_name": "AMNESIA 失忆症",
+    "company": "Otomate / Design Factory Co., Ltd.",
+    "cover_url": "/demo-covers/v7803.jpg",
+    "total_duration": 53256,
+    "source": "https://vndb.org/v7803",
+    "original_cover": "https://t.vndb.org/cv/16/76616.jpg"
+  },
+  {
+    "game_id": "v7602",
+    "game_name": "Fate/EXTRA",
+    "company": "TYPE-MOON / imageepoch / Type-Moon studio BB / Meteorise",
+    "cover_url": "/demo-covers/v7602.jpg",
+    "total_duration": 51959,
+    "source": "https://vndb.org/v7602",
+    "original_cover": "https://t.vndb.org/cv/92/92392.jpg"
+  },
+  {
+    "game_id": "v31160",
+    "game_name": "Milk outside a bag of milk outside a bag of milk",
+    "company": "Nikita Krjukov",
+    "cover_url": "/demo-covers/v31160.jpg",
+    "total_duration": 50680,
+    "source": "https://vndb.org/v31160",
+    "original_cover": "https://t.vndb.org/cv/74/51574.jpg"
+  },
+  {
+    "game_id": "v38",
+    "game_name": "交响乐之雨",
+    "company": "Kuroneko-san Team",
+    "cover_url": "/demo-covers/v38.jpg",
+    "total_duration": 49416,
+    "source": "https://vndb.org/v38",
+    "original_cover": "https://t.vndb.org/cv/73/89273.jpg"
+  },
+  {
+    "game_id": "v5000",
+    "game_name": "Root Double",
+    "company": "Regista Co.,Ltd.",
+    "cover_url": "/demo-covers/v5000.jpg",
+    "total_duration": 48169,
+    "source": "https://vndb.org/v5000",
+    "original_cover": "https://t.vndb.org/cv/73/88373.jpg"
+  },
+  {
+    "game_id": "v18498",
+    "game_name": "ISLAND",
+    "company": "Frontwing",
+    "cover_url": "/demo-covers/v18498.jpg",
+    "total_duration": 46937,
+    "source": "https://vndb.org/v18498",
+    "original_cover": "https://t.vndb.org/cv/39/75939.jpg"
+  },
+  {
+    "game_id": "v15125",
+    "game_name": "大逆转裁判 －成步堂龙之介的冒险－",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v15125.jpg",
+    "total_duration": 45723,
+    "source": "https://vndb.org/v15125",
+    "original_cover": "https://t.vndb.org/cv/78/85978.jpg"
+  },
+  {
+    "game_id": "v6639",
+    "game_name": "逆转检察官2",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v6639.jpg",
+    "total_duration": 44524,
+    "source": "https://vndb.org/v6639",
+    "original_cover": "https://t.vndb.org/cv/72/90172.jpg"
+  },
+  {
+    "game_id": "v18267",
+    "game_name": "逆转裁判6",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v18267.jpg",
+    "total_duration": 43342,
+    "source": "https://vndb.org/v18267",
+    "original_cover": "https://t.vndb.org/cv/82/85982.jpg"
+  },
+  {
+    "game_id": "v5883",
+    "game_name": "ROBOTICS;NOTES",
+    "company": "NITRO PLUS / MAGES.",
+    "cover_url": "/demo-covers/v5883.jpg",
+    "total_duration": 42176,
+    "source": "https://vndb.org/v5883",
+    "original_cover": "https://t.vndb.org/cv/53/75853.jpg"
+  },
+  {
+    "game_id": "v7836",
+    "game_name": "鸽子男友",
+    "company": "Moa",
+    "cover_url": "/demo-covers/v7836.jpg",
+    "total_duration": 41027,
+    "source": "https://vndb.org/v7836",
+    "original_cover": "https://t.vndb.org/cv/51/76351.jpg"
+  },
+  {
+    "game_id": "v165",
+    "game_name": "MELTY BLOOD",
+    "company": "French-Bread",
+    "cover_url": "/demo-covers/v165.jpg",
+    "total_duration": 39894,
+    "source": "https://vndb.org/v165",
+    "original_cover": "https://t.vndb.org/cv/11/76111.jpg"
+  },
+  {
+    "game_id": "v103",
+    "game_name": "TRUE REMEMBRANCE",
+    "company": "Satomi Shiba",
+    "cover_url": "/demo-covers/v103.jpg",
+    "total_duration": 38777,
+    "source": "https://vndb.org/v103",
+    "original_cover": "https://t.vndb.org/cv/82/43082.jpg"
+  },
+  {
+    "game_id": "v29443",
+    "game_name": "星之终途",
+    "company": "Key",
+    "cover_url": "/demo-covers/v29443.jpg",
+    "total_duration": 37676,
+    "source": "https://vndb.org/v29443",
+    "original_cover": "https://t.vndb.org/cv/15/75915.jpg"
+  },
+  {
+    "game_id": "v31469",
+    "game_name": "AI：梦境档案 涅槃肇始",
+    "company": "Spike Chunsoft",
+    "cover_url": "/demo-covers/v31469.jpg",
+    "total_duration": 36592,
+    "source": "https://vndb.org/v31469",
+    "original_cover": "https://t.vndb.org/cv/62/75862.jpg"
+  },
+  {
+    "game_id": "v14267",
+    "game_name": "FLOWERS -Le volume sur printemps-",
+    "company": "Innocent Grey",
+    "cover_url": "/demo-covers/v14267.jpg",
+    "total_duration": 35524,
+    "source": "https://vndb.org/v14267",
+    "original_cover": "https://t.vndb.org/cv/53/77853.jpg"
+  },
+  {
+    "game_id": "v69",
+    "game_name": "寒蝉鸣泣之时 礼",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v69.jpg",
+    "total_duration": 34472,
+    "source": "https://vndb.org/v69",
+    "original_cover": "https://t.vndb.org/cv/30/78130.jpg"
+  },
+  {
+    "game_id": "v1299",
+    "game_name": "428 ～被封锁的涩谷～",
+    "company": "TYPE-MOON / Chunsoft / Spike Chunsoft",
+    "cover_url": "/demo-covers/v1299.jpg",
+    "total_duration": 33437,
+    "source": "https://vndb.org/v1299",
+    "original_cover": "https://t.vndb.org/cv/06/75806.jpg"
+  },
+  {
+    "game_id": "v7576",
+    "game_name": "彼岸花盛开之夜 第一夜",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v7576.jpg",
+    "total_duration": 32418,
+    "source": "https://vndb.org/v7576",
+    "original_cover": "https://t.vndb.org/cv/33/91333.jpg"
+  },
+  {
+    "game_id": "v19987",
+    "game_name": "大逆转裁判 2 －成步堂龙之介的觉悟－",
+    "company": "CAPCOM Co., Ltd.",
+    "cover_url": "/demo-covers/v19987.jpg",
+    "total_duration": 31415,
+    "source": "https://vndb.org/v19987",
+    "original_cover": "https://t.vndb.org/cv/03/88203.jpg"
+  },
+  {
+    "game_id": "v16743",
+    "game_name": "露西 - 她所期望的一切 -",
+    "company": "M-Vizlab",
+    "cover_url": "/demo-covers/v16743.jpg",
+    "total_duration": 30429,
+    "source": "https://vndb.org/v16743",
+    "original_cover": "https://t.vndb.org/cv/05/78805.jpg"
+  },
+  {
+    "game_id": "v37179",
+    "game_name": "杀死公主",
+    "company": "Black Tabby Games",
+    "cover_url": "/demo-covers/v37179.jpg",
+    "total_duration": 29458,
+    "source": "https://vndb.org/v37179",
+    "original_cover": "https://t.vndb.org/cv/49/94049.jpg"
+  },
+  {
+    "game_id": "v29345",
+    "game_name": "Class of '09",
+    "company": "SBN3",
+    "cover_url": "/demo-covers/v29345.jpg",
+    "total_duration": 28505,
+    "source": "https://vndb.org/v29345",
+    "original_cover": "https://t.vndb.org/cv/43/76343.jpg"
+  },
+  {
+    "game_id": "v248",
+    "game_name": "第七夜 无限轮回的终结",
+    "company": "KID / MAGES. / SDR Project",
+    "cover_url": "/demo-covers/v248.jpg",
+    "total_duration": 27567,
+    "source": "https://vndb.org/v248",
+    "original_cover": "https://t.vndb.org/cv/67/88867.jpg"
+  },
+  {
+    "game_id": "v7849",
+    "game_name": "尸体派对 影之书",
+    "company": "MAGES. / Team GrisGris",
+    "cover_url": "/demo-covers/v7849.jpg",
+    "total_duration": 26646,
+    "source": "https://vndb.org/v7849",
+    "original_cover": "https://t.vndb.org/cv/82/79282.jpg"
+  },
+  {
+    "game_id": "v12694",
+    "game_name": "fault - milestone one",
+    "company": "ALICE IN DISSONANCE",
+    "cover_url": "/demo-covers/v12694.jpg",
+    "total_duration": 25741,
+    "source": "https://vndb.org/v12694",
+    "original_cover": "https://t.vndb.org/cv/69/76369.jpg"
+  },
+  {
+    "game_id": "v22020",
+    "game_name": "猫娘乐园Extra 小猫之日的约定",
+    "company": "NEKO WORKs",
+    "cover_url": "/demo-covers/v22020.jpg",
+    "total_duration": 24852,
+    "source": "https://vndb.org/v22020",
+    "original_cover": "https://t.vndb.org/cv/40/88740.jpg"
+  },
+  {
+    "game_id": "v13774",
+    "game_name": "Angel Beats! -1st beat-",
+    "company": "Key",
+    "cover_url": "/demo-covers/v13774.jpg",
+    "total_duration": 23980,
+    "source": "https://vndb.org/v13774",
+    "original_cover": "https://t.vndb.org/cv/70/121870.jpg"
+  },
+  {
+    "game_id": "v18160",
+    "game_name": "項圈×惡意",
+    "company": "Otomate / Design Factory Co., Ltd.",
+    "cover_url": "/demo-covers/v18160.jpg",
+    "total_duration": 23124,
+    "source": "https://vndb.org/v18160",
+    "original_cover": "https://t.vndb.org/cv/00/91400.jpg"
+  },
+  {
+    "game_id": "v6618",
+    "game_name": "命运石之门：比翼恋理的爱人",
+    "company": "NITRO PLUS / MAGES.",
+    "cover_url": "/demo-covers/v6618.jpg",
+    "total_duration": 22284,
+    "source": "https://vndb.org/v6618",
+    "original_cover": "https://t.vndb.org/cv/44/75844.jpg"
+  },
+  {
+    "game_id": "v16510",
+    "game_name": "Harmonia",
+    "company": "Key",
+    "cover_url": "/demo-covers/v16510.jpg",
+    "total_duration": 21461,
+    "source": "https://vndb.org/v16510",
+    "original_cover": "https://t.vndb.org/cv/06/75906.jpg"
+  },
+  {
+    "game_id": "v29445",
+    "game_name": "LOOPERS",
+    "company": "Key",
+    "cover_url": "/demo-covers/v29445.jpg",
+    "total_duration": 20654,
+    "source": "https://vndb.org/v29445",
+    "original_cover": "https://t.vndb.org/cv/09/75909.jpg"
+  },
+  {
+    "game_id": "v1715",
+    "game_name": "薄櫻鬼 真改 風華傳",
+    "company": "Otomate / Design Factory Co., Ltd.",
+    "cover_url": "/demo-covers/v1715.jpg",
+    "total_duration": 19863,
+    "source": "https://vndb.org/v1715",
+    "original_cover": "https://t.vndb.org/cv/60/76060.jpg"
+  },
+  {
+    "game_id": "v26902",
+    "game_name": "丸子与银河龙",
+    "company": "TOKYOTOON",
+    "cover_url": "/demo-covers/v26902.jpg",
+    "total_duration": 19088,
+    "source": "https://vndb.org/v26902",
+    "original_cover": "https://t.vndb.org/cv/08/78908.jpg"
+  },
+  {
+    "game_id": "v50283",
+    "game_name": "魔法少女的魔女审判",
+    "company": "Re,AER LLC. / Acacia",
+    "cover_url": "/demo-covers/v50283.jpg",
+    "total_duration": 18330,
+    "source": "https://vndb.org/v50283",
+    "original_cover": "https://t.vndb.org/cv/34/100334.jpg"
+  },
+  {
+    "game_id": "v17915",
+    "game_name": "Mystic Messenger 神祕信使",
+    "company": "Cheritz Co., Ltd",
+    "cover_url": "/demo-covers/v17915.jpg",
+    "total_duration": 17588,
+    "source": "https://vndb.org/v17915",
+    "original_cover": "https://t.vndb.org/cv/57/85257.jpg"
+  },
+  {
+    "game_id": "v9986",
+    "game_name": "茱尼帕之结",
+    "company": "Dischan Media Inc.",
+    "cover_url": "/demo-covers/v9986.jpg",
+    "total_duration": 16863,
+    "source": "https://vndb.org/v9986",
+    "original_cover": "https://t.vndb.org/cv/63/78363.jpg"
+  },
+  {
+    "game_id": "v14908",
+    "game_name": "Code：Realize ～创世的公主～",
+    "company": "Otomate / Design Factory Co., Ltd.",
+    "cover_url": "/demo-covers/v14908.jpg",
+    "total_duration": 16154,
+    "source": "https://vndb.org/v14908",
+    "original_cover": "https://t.vndb.org/cv/61/76061.jpg"
+  },
+  {
+    "game_id": "v15395",
+    "game_name": "FLOWERS -Le volume sur été-",
+    "company": "Innocent Grey",
+    "cover_url": "/demo-covers/v15395.jpg",
+    "total_duration": 15461,
+    "source": "https://vndb.org/v15395",
+    "original_cover": "https://t.vndb.org/cv/80/77880.jpg"
+  },
+  {
+    "game_id": "v54897",
+    "game_name": "百日战纪 -最终防卫学园-",
+    "company": "Media.Vision / Too Kyo Games, Inc.",
+    "cover_url": "/demo-covers/v54897.jpg",
+    "total_duration": 14784,
+    "source": "https://vndb.org/v54897",
+    "original_cover": "https://t.vndb.org/cv/44/104144.jpg"
+  },
+  {
+    "game_id": "v697",
+    "game_name": "Wish Room: Tenshi no Kioku",
+    "company": "Cing",
+    "cover_url": "/demo-covers/v697.jpg",
+    "total_duration": 14124,
+    "source": "https://vndb.org/v697",
+    "original_cover": "https://t.vndb.org/cv/72/89872.jpg"
+  },
+  {
+    "game_id": "v42561",
+    "game_name": "灵视异闻 FILE23 本所七大不可思议",
+    "company": "SQUARE ENIX",
+    "cover_url": "/demo-covers/v42561.jpg",
+    "total_duration": 13479,
+    "source": "https://vndb.org/v42561",
+    "original_cover": "https://t.vndb.org/cv/58/79158.jpg"
+  },
+  {
+    "game_id": "v11660",
+    "game_name": "命运石之门 线性拘束的表征图",
+    "company": "NITRO PLUS / MAGES.",
+    "cover_url": "/demo-covers/v11660.jpg",
+    "total_duration": 12852,
+    "source": "https://vndb.org/v11660",
+    "original_cover": "https://t.vndb.org/cv/30/75830.jpg"
+  },
+  {
+    "game_id": "v9678",
+    "game_name": "Rose Guns Days",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v9678.jpg",
+    "total_duration": 12240,
+    "source": "https://vndb.org/v9678",
+    "original_cover": "https://t.vndb.org/cv/15/88415.jpg"
+  },
+  {
+    "game_id": "v3720",
+    "game_name": "RE: Alistair",
+    "company": "Mugenjohncel / sakevisual",
+    "cover_url": "/demo-covers/v3720.jpg",
+    "total_duration": 11645,
+    "source": "https://vndb.org/v3720",
+    "original_cover": "https://t.vndb.org/cv/05/48105.jpg"
+  },
+  {
+    "game_id": "v15252",
+    "game_name": "fault - milestone two Jou",
+    "company": "ALICE IN DISSONANCE",
+    "cover_url": "/demo-covers/v15252.jpg",
+    "total_duration": 11066,
+    "source": "https://vndb.org/v15252",
+    "original_cover": "https://t.vndb.org/cv/73/76373.jpg"
+  },
+  {
+    "game_id": "v20032",
+    "game_name": "银色事件",
+    "company": "Grasshopper Manufacture",
+    "cover_url": "/demo-covers/v20032.jpg",
+    "total_duration": 10504,
+    "source": "https://vndb.org/v20032",
+    "original_cover": "https://t.vndb.org/cv/38/78338.jpg"
+  },
+  {
+    "game_id": "v49859",
+    "game_name": "不/存在的你，和我",
+    "company": "0x0Real Studio",
+    "cover_url": "/demo-covers/v49859.jpg",
+    "total_duration": 9958,
+    "source": "https://vndb.org/v49859",
+    "original_cover": "https://t.vndb.org/cv/08/86908.jpg"
+  },
+  {
+    "game_id": "v5381",
+    "game_name": "BLAZBLUE CALAMITY TRIGGER",
+    "company": "Arc System Works Co., Ltd.",
+    "cover_url": "/demo-covers/v5381.jpg",
+    "total_duration": 9428,
+    "source": "https://vndb.org/v5381",
+    "original_cover": "https://t.vndb.org/cv/30/76130.jpg"
+  },
+  {
+    "game_id": "v15119",
+    "game_name": "Layton Kyouju VS Gyakuten Saiban",
+    "company": "CAPCOM Co., Ltd. / Level-5 Inc.",
+    "cover_url": "/demo-covers/v15119.jpg",
+    "total_duration": 8914,
+    "source": "https://vndb.org/v15119",
+    "original_cover": "https://t.vndb.org/cv/98/99698.jpg"
+  },
+  {
+    "game_id": "v7184",
+    "game_name": "月界金融末世錄",
+    "company": "Spicy Tails",
+    "cover_url": "/demo-covers/v7184.jpg",
+    "total_duration": 8417,
+    "source": "https://vndb.org/v7184",
+    "original_cover": "https://t.vndb.org/cv/56/99056.jpg"
+  },
+  {
+    "game_id": "v96",
+    "game_name": "I/O",
+    "company": "Regista Co.,Ltd.",
+    "cover_url": "/demo-covers/v96.jpg",
+    "total_duration": 7936,
+    "source": "https://vndb.org/v96",
+    "original_cover": "https://t.vndb.org/cv/45/7745.jpg"
+  },
+  {
+    "game_id": "v25197",
+    "game_name": "全员恶人",
+    "company": "Nippon Cultural Broadcasting Extend Inc.",
+    "cover_url": "/demo-covers/v25197.jpg",
+    "total_duration": 7471,
+    "source": "https://vndb.org/v25197",
+    "original_cover": "https://t.vndb.org/cv/30/76630.jpg"
+  },
+  {
+    "game_id": "v19843",
+    "game_name": "致命十二人",
+    "company": "LYCORIS",
+    "cover_url": "/demo-covers/v19843.jpg",
+    "total_duration": 7023,
+    "source": "https://vndb.org/v19843",
+    "original_cover": "https://t.vndb.org/cv/24/76524.jpg"
+  },
+  {
+    "game_id": "v17287",
+    "game_name": "百花百狼 ～战国忍法帖～",
+    "company": "Red Entertainment Corporation / Lantern Rooms",
+    "cover_url": "/demo-covers/v17287.jpg",
+    "total_duration": 6591,
+    "source": "https://vndb.org/v17287",
+    "original_cover": "https://t.vndb.org/cv/32/76632.jpg"
+  },
+  {
+    "game_id": "v19119",
+    "game_name": "Fate/EXTELLA",
+    "company": "TYPE-MOON / Marvelous Inc.",
+    "cover_url": "/demo-covers/v19119.jpg",
+    "total_duration": 6175,
+    "source": "https://vndb.org/v19119",
+    "original_cover": "https://t.vndb.org/cv/06/76106.jpg"
+  },
+  {
+    "game_id": "v21782",
+    "game_name": "虔诚之花的晚钟",
+    "company": "Otomate / Design Factory Co., Ltd.",
+    "cover_url": "/demo-covers/v21782.jpg",
+    "total_duration": 5775,
+    "source": "https://vndb.org/v21782",
+    "original_cover": "https://t.vndb.org/cv/50/76050.jpg"
+  },
+  {
+    "game_id": "v38430",
+    "game_name": "GINKA",
+    "company": "Frontwing",
+    "cover_url": "/demo-covers/v38430.jpg",
+    "total_duration": 5392,
+    "source": "https://vndb.org/v38430",
+    "original_cover": "https://t.vndb.org/cv/15/91415.jpg"
+  },
+  {
+    "game_id": "v31807",
+    "game_name": "PARQUET",
+    "company": "Yuzusoft SOUR",
+    "cover_url": "/demo-covers/v31807.jpg",
+    "total_duration": 5025,
+    "source": "https://vndb.org/v31807",
+    "original_cover": "https://t.vndb.org/cv/91/79891.jpg"
+  },
+  {
+    "game_id": "v18152",
+    "game_name": "FLOWERS -Le volume sur automne-",
+    "company": "Innocent Grey",
+    "cover_url": "/demo-covers/v18152.jpg",
+    "total_duration": 4675,
+    "source": "https://vndb.org/v18152",
+    "original_cover": "https://t.vndb.org/cv/13/77913.jpg"
+  },
+  {
+    "game_id": "v15771",
+    "game_name": "黑蝶幻境",
+    "company": "STING CO., LTD.",
+    "cover_url": "/demo-covers/v15771.jpg",
+    "total_duration": 4341,
+    "source": "https://vndb.org/v15771",
+    "original_cover": "https://t.vndb.org/cv/24/76624.jpg"
+  },
+  {
+    "game_id": "v7833",
+    "game_name": "OZMAFIA!!",
+    "company": "Poni-Pachet SY",
+    "cover_url": "/demo-covers/v7833.jpg",
+    "total_duration": 4023,
+    "source": "https://vndb.org/v7833",
+    "original_cover": "https://t.vndb.org/cv/33/77733.jpg"
+  },
+  {
+    "game_id": "v20194",
+    "game_name": "灰色幻影扳机第1卷",
+    "company": "Frontwing",
+    "cover_url": "/demo-covers/v20194.jpg",
+    "total_duration": 3721,
+    "source": "https://vndb.org/v20194",
+    "original_cover": "https://t.vndb.org/cv/91/75991.jpg"
+  },
+  {
+    "game_id": "v12369",
+    "game_name": "Fate/EXTRA CCC",
+    "company": "TYPE-MOON / imageepoch",
+    "cover_url": "/demo-covers/v12369.jpg",
+    "total_duration": 3436,
+    "source": "https://vndb.org/v12369",
+    "original_cover": "https://t.vndb.org/cv/95/92395.jpg"
+  },
+  {
+    "game_id": "v16032",
+    "game_name": "大正×对称爱丽丝",
+    "company": "PROTOTYPE / Primula",
+    "cover_url": "/demo-covers/v16032.jpg",
+    "total_duration": 3167,
+    "source": "https://vndb.org/v16032",
+    "original_cover": "https://t.vndb.org/cv/96/87196.jpg"
+  },
+  {
+    "game_id": "v3319",
+    "game_name": "The Second Reproduction",
+    "company": "Heterodoxy",
+    "cover_url": "/demo-covers/v3319.jpg",
+    "total_duration": 2914,
+    "source": "https://vndb.org/v3319",
+    "original_cover": "https://t.vndb.org/cv/81/17081.jpg"
+  },
+  {
+    "game_id": "v1281",
+    "game_name": "圣诞之吻",
+    "company": "Enterbrain!",
+    "cover_url": "/demo-covers/v1281.jpg",
+    "total_duration": 2677,
+    "source": "https://vndb.org/v1281",
+    "original_cover": "https://t.vndb.org/cv/65/101465.jpg"
+  },
+  {
+    "game_id": "v17101",
+    "game_name": "匿名代码",
+    "company": "MAGES. / M2 Co., Ltd.",
+    "cover_url": "/demo-covers/v17101.jpg",
+    "total_duration": 2457,
+    "source": "https://vndb.org/v17101",
+    "original_cover": "https://t.vndb.org/cv/63/75863.jpg"
+  },
+  {
+    "game_id": "v700",
+    "game_name": "魔塔大陆 ～在世界终焉续咏诗歌不绝的少女～",
+    "company": "GUST",
+    "cover_url": "/demo-covers/v700.jpg",
+    "total_duration": 2253,
+    "source": "https://vndb.org/v700",
+    "original_cover": "https://t.vndb.org/cv/13/94613.jpg"
+  },
+  {
+    "game_id": "v25413",
+    "game_name": "重返蓝鲸岛",
+    "company": "TABINOMICHI",
+    "cover_url": "/demo-covers/v25413.jpg",
+    "total_duration": 2066,
+    "source": "https://vndb.org/v25413",
+    "original_cover": "https://t.vndb.org/cv/86/79086.jpg"
+  },
+  {
+    "game_id": "v24241",
+    "game_name": "奧林匹亞的晚宴",
+    "company": "Otomate / HYDE, Inc.",
+    "cover_url": "/demo-covers/v24241.jpg",
+    "total_duration": 1895,
+    "source": "https://vndb.org/v24241",
+    "original_cover": "https://t.vndb.org/cv/20/50620.jpg"
+  },
+  {
+    "game_id": "v2021",
+    "game_name": "Starry☆Sky ~in Spring~",
+    "company": "honeybee",
+    "cover_url": "/demo-covers/v2021.jpg",
+    "total_duration": 1740,
+    "source": "https://vndb.org/v2021",
+    "original_cover": "https://t.vndb.org/cv/65/80365.jpg"
+  },
+  {
+    "game_id": "v15523",
+    "game_name": "寒蝉鸣泣之时奉",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v15523.jpg",
+    "total_duration": 1601,
+    "source": "https://vndb.org/v15523",
+    "original_cover": "https://t.vndb.org/cv/92/78092.jpg"
+  },
+  {
+    "game_id": "v1560",
+    "game_name": "Mirai no Kimi to, Subete no Uta ni",
+    "company": "Supplement Time",
+    "cover_url": "/demo-covers/v1560.jpg",
+    "total_duration": 1479,
+    "source": "https://vndb.org/v1560",
+    "original_cover": "https://t.vndb.org/cv/00/102300.jpg"
+  },
+  {
+    "game_id": "v4111",
+    "game_name": "Digital: A Love Story",
+    "company": "Love Conquers All Games",
+    "cover_url": "/demo-covers/v4111.jpg",
+    "total_duration": 1373,
+    "source": "https://vndb.org/v4111",
+    "original_cover": "https://t.vndb.org/cv/73/5073.jpg"
+  },
+  {
+    "game_id": "v9047",
+    "game_name": "海貓鳴泣之時羽",
+    "company": "07th Expansion",
+    "cover_url": "/demo-covers/v9047.jpg",
+    "total_duration": 1283,
+    "source": "https://vndb.org/v9047",
+    "original_cover": "https://t.vndb.org/cv/99/88099.jpg"
+  },
+  {
+    "game_id": "v25912",
+    "game_name": "共生邱比特",
+    "company": "Otomate",
+    "cover_url": "/demo-covers/v25912.jpg",
+    "total_duration": 1210,
+    "source": "https://vndb.org/v25912",
+    "original_cover": "https://t.vndb.org/cv/55/46155.jpg"
+  },
+  {
+    "game_id": "v6572",
+    "game_name": "BLAZBLUE CONTINUUM SHIFT",
+    "company": "Arc System Works Co., Ltd.",
+    "cover_url": "/demo-covers/v6572.jpg",
+    "total_duration": 1153,
+    "source": "https://vndb.org/v6572",
+    "original_cover": "https://t.vndb.org/cv/31/76131.jpg"
+  },
+  {
+    "game_id": "v11179",
+    "game_name": "命运九重奏",
+    "company": "Otomate",
+    "cover_url": "/demo-covers/v11179.jpg",
+    "total_duration": 1112,
+    "source": "https://vndb.org/v11179",
+    "original_cover": "https://t.vndb.org/cv/63/76063.jpg"
+  },
+  {
+    "game_id": "v8020",
+    "game_name": "Rewrite Harvest festa!",
+    "company": "Key",
+    "cover_url": "/demo-covers/v8020.jpg",
+    "total_duration": 1088,
+    "source": "https://vndb.org/v8020",
+    "original_cover": "https://t.vndb.org/cv/32/79532.jpg"
+  }
+]
