@@ -33,6 +33,47 @@ func NewStatsService() *StatsService {
 	return &StatsService{runtime: appruntime.Unavailable()}
 }
 
+// GetPosterGames returns every played game in the inclusive local calendar range.
+// The statistics dashboard keeps its existing top-20 leaderboard independently.
+func (s *StatsService) GetPosterGames(startDate, endDate string) ([]vo.PosterGame, error) {
+	start, err := time.Parse("2006-01-02", startDate)
+	if err != nil {
+		return nil, fmt.Errorf("invalid poster start date: %w", err)
+	}
+	end, err := time.Parse("2006-01-02", endDate)
+	if err != nil {
+		return nil, fmt.Errorf("invalid poster end date: %w", err)
+	}
+	if end.Before(start) {
+		return nil, fmt.Errorf("poster start date must not be after end date")
+	}
+	rows, err := s.db.QueryContext(s.ctx, `
+		SELECT g.id, g.name, COALESCE(g.company, ''),
+			COALESCE(NULLIF(g.cover_url, ''), g.cover_source_url, ''), SUM(ps.duration) AS total
+		FROM play_sessions ps JOIN games g ON g.id = ps.game_id
+		WHERE ps.start_time >= CAST(? AS DATE)
+			AND ps.start_time < CAST(? AS DATE) + INTERVAL 1 DAY
+		GROUP BY g.id, g.name, g.company, g.cover_url, g.cover_source_url
+		HAVING SUM(ps.duration) > 0
+		ORDER BY total DESC, g.id ASC`, startDate, endDate)
+	if err != nil {
+		return nil, fmt.Errorf("query poster games: %w", err)
+	}
+	defer rows.Close()
+	games := make([]vo.PosterGame, 0)
+	for rows.Next() {
+		var game vo.PosterGame
+		if err := rows.Scan(&game.GameID, &game.GameName, &game.Company, &game.CoverURL, &game.TotalDuration); err != nil {
+			return nil, fmt.Errorf("scan poster game: %w", err)
+		}
+		games = append(games, game)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("read poster games: %w", err)
+	}
+	return games, nil
+}
+
 //wails:ignore
 func (s *StatsService) Init(ctx context.Context, db *sql.DB, config *appconf.AppConfig) {
 	s.ctx = ctx

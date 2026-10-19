@@ -49,6 +49,7 @@ export {
     MetadataRequest,
     PeriodStats,
     PeriodStatsRequest,
+    PosterGame,
     ProtocolLaunchRequest,
     RemoteStatusSyncProgress,
     RenderTemplateRequest,

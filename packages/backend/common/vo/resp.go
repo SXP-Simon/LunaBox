@@ -180,6 +180,15 @@ type GamePlayStats struct {
 	TotalDuration int    `json:"total_duration"`
 }
 
+// PosterGame is the complete, untruncated game list for a statistics poster.
+type PosterGame struct {
+	GameID        string `json:"game_id"`
+	GameName      string `json:"game_name"`
+	Company       string `json:"company"`
+	CoverURL      string `json:"cover_url"`
+	TotalDuration int    `json:"total_duration"`
+}
+
 type GamePlayCount struct {
 	GameID    string `json:"game_id"`
 	GameName  string `json:"game_name"`
