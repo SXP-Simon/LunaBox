@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { enums } from "../../../src/bindings/models";
 import { BetterButton } from "../ui/better/BetterButton";
 import { BetterDateRangePicker } from "../ui/better/BetterDateRangePicker";
+import { BetterTooltip } from "../ui/better/BetterTooltip";
 import { SlideButton } from "../ui/SlideButton";
 
 interface StatsToolbarProps {
@@ -72,23 +73,27 @@ export function StatsToolbar({
       </div>
 
       <div className="flex shrink-0 items-center gap-2">
-        <BetterButton
-          size="md"
-          variant="secondary"
-          icon="i-mdi-image-filter-hdr"
-          disabled={loading}
-          onClick={onExportReport}
-          aria-label={t("stats.exportTitle")}
-        />
-        <BetterButton
-          size="md"
-          variant="secondary"
-          icon="i-mdi-robot-happy"
-          disabled={loading}
-          isLoading={aiLoading}
-          onClick={onAISummarize}
-          aria-label={t("stats.aiSummarizeTitle")}
-        />
+        <BetterTooltip content={t("stats.exportTitle")}>
+          <BetterButton
+            size="md"
+            variant="secondary"
+            icon="i-mdi-image-filter-hdr"
+            disabled={loading}
+            onClick={onExportReport}
+            aria-label={t("stats.exportTitle")}
+          />
+        </BetterTooltip>
+        <BetterTooltip content={t("stats.aiSummarizeTitle")}>
+          <BetterButton
+            size="md"
+            variant="secondary"
+            icon="i-mdi-robot-happy"
+            disabled={loading}
+            isLoading={aiLoading}
+            onClick={onAISummarize}
+            aria-label={t("stats.aiSummarizeTitle")}
+          />
+        </BetterTooltip>
       </div>
     </div>
   );
