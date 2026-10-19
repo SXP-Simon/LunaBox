@@ -10,7 +10,8 @@
     "i18n:clean": "node scripts/i18n-clean.mjs",
     "preview": "vite preview",
     "typecheck": "node ./node_modules/@typescript/native/bin/tsc",
-    "prepare": "cd ../../.. && husky apps/desktop/frontend/.husky"
+    "prepare": "cd ../../.. && husky apps/desktop/frontend/.husky",
+    "test:poster": "node --experimental-strip-types --test scripts/poster-layout.test.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",

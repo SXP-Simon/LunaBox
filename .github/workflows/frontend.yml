@@ -47,5 +47,8 @@ jobs:
       - name: Check internationalization files
         run: pnpm run i18n:check
 
+      - name: Test poster layout and crop geometry
+        run: pnpm run test:poster
+
       - name: Build frontend
         run: pnpm run build
